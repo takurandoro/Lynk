@@ -17,28 +17,6 @@ Link to SRS document https://docs.google.com/document/d/1VQcQ_1LxaWn0q72XDmoo2ei
 Link to live system http://129.151.174.53/
 
 
-
-
-</section>
-<section id="installation">
-	<div class="page-header"><h3>Server Requirements</h3><hr class="notop"></div>
-			
-			<ul>
-				<li> PHP >= 7.1.3 </li>
-				<li> OpenSSL PHP Extension </li>
-				<li> PDO PHP Extension </li>
-				<li> Mbstring PHP Extension </li>
-				<li> Tokenizer PHP Extension </li>
-				<li> XML PHP Extension </li>
-				<li> Ctype PHP Extension </li>
-				<li> JSON PHP Extension </li>
-			</ul>
-    <h3>Installation Instructions</h3>
-    <ul>
-        <li>Unzip the source package.</li>
-        <li>Upload the <strong>source</strong> directory and files to your server. Normally the <strong>root>source>public>index.php</strong> file will be at your root.</li>
-        <li>For database settings, open the <strong>.env</strong> file with a text editor and set your database settings. <br />
-<strong>Note: .env</strong> is a hidden file, you can see it by opening directory to a text editor.</li>
         <li>Import demo database, demo database located at <strong>root>source>db-backup</strong> directory</li>
     </ul>
     <ul>
